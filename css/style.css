@@ -40,13 +40,13 @@ body {
 
   /* quickly fixing a problem with aligning of apps icon */
   .div-align {
-    display: inline-flex;
     align-items: center;
-    justify-content: center;
-    width: 40px;
+    display: inline-flex;
     height: 40px;
-    margin-right: 1rem;
+    justify-content: center;
     margin-left: 1rem;
+    margin-right: 1rem;
+    width: 40px;
   }
   .div-align:hover {
     background-color: rgba(60, 64, 67, 0.08);
@@ -59,9 +59,14 @@ body {
 }
 /* main navbar */
 .main-menu {
+  align-items: center;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   margin: 1rem 3rem 0 0;
   width: auto;
+}
+
+/* Main content */
+.main {
+  display
 }
