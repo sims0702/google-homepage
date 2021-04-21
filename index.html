@@ -13,48 +13,75 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <nav class="main-menu">
-        <ul class="list list--inline">
-          <li class="list__item">Gmail</li>
-          <li class="list__item">Afbeeldingen</li>
-        </ul>
-        <div class="div-align">
-          <span class="material-icons main-menu__icon"> apps </span>
+    <div class="alles">
+        <div class="complete">
+          <header>
+            <nav class="main-menu">
+              <ul class="list list--inline">
+                <li class="list__item">Gmail</li>
+                <li class="list__item">Afbeeldingen</li>
+              </ul>
+              <div class="div-align">
+                <span class="material-icons main-menu__icon"> apps </span>
+              </div>
+              <img
+                class="img"
+                src="https://lh3.googleusercontent.com/ogw/ADGmqu_w7p9hPbSOF1VZV3zrkVw5ynQu_VtH7zfq3zGQ=s32-c-mo"
+                alt="Profile picture"
+              />
+            </nav>
+          </header>
+          <!-- main content (search engine) -->
+          <section class="main-image">
+            <img
+              src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+              alt="Google's main logo"
+            />
+          </section>
+          <section class="form">
+            <form action="">
+              <div class="search-bar">
+                <div class="search-bar__search-icon">
+                  <span class="material-icons icon-s"> search </span>
+                </div>
+                <div class="search-control">
+                  <input type="search" name="q" autofocus autocomplete="off" required/>
+                </div>
+                <div class="search-bar__voice-icon">
+                    <span class="material-icons icon-v">
+                keyboard_voice
+                </span>
+                </div>
+              </div>
+                  <div class="cta-btns">
+                      <button class="btn-s" type="submit">Search</button>
+                      <button class="btn-g" type="submit">Guess</button>
+                  </div>
+            </section>
+        </form>
+        <div class="langs">
+        <p>
+            Google aangeboden in: <a class="lang" href="#">English</a> <a class="lang" href="#">Français</a> <a class="lang" href="#">Deutsch</a>
+        </p>
         </div>
-        <img
-          class="img"
-          src="https://lh3.googleusercontent.com/ogw/ADGmqu_w7p9hPbSOF1VZV3zrkVw5ynQu_VtH7zfq3zGQ=s32-c-mo"
-          alt="Profile picture"
-        />
-      </nav>
-    </header>
-
-    <!-- main content (search engine) -->
-    <main>
-      <article class="main">
-        <section class="main-image">
-          <img
-            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-            alt="Google's main logo"
-          />
-        </section>
-        <section class="form">
-          <form action="">
-            <div class="search-bar">
-              <div class="search-bar__search-icon">
-                <span class="material-icons"> search </span>
-              </div>
-              <div class="search-control">
-                <input type="search" name="q" />
-              </div>
+        </div>
+        <footer>
+        <div class="footer">
+            <div class="first">
+            <ul class="begin-footer">
+                <li class="list"><a href="#">Advertising</a></li>
+                <li class="list"><a href="#">Business</a></li>
+                <li class="list"><a href="#">How Search Works</a></li>
+                </div>
+                <div class="second">
+            <ul class="begin-footer end-footer">
+                <li class="list"><a href="#">Privacy</a></li>
+                <li class="list"><a href="#">Terms</a></li>
+                <li class="list"><a href="#">Settings</a></li>
+            </ul>
             </div>
-          </form>
-        </section>
-        <section class="cta-btns">
-          <button><button></button></button>
-        </section>
-      </article>
-    </main>
+        </div>
+        </footer>
+    </div>
   </body>
 </html>
